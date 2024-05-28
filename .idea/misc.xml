@@ -1,0 +1,61 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/2048 Merge Puzzle/app/src/main/res/layout/about.xml" value="0.18" />
+        <entry key="..\:/2048 Merge Puzzle/app/src/main/res/layout/choose_board.xml" value="0.15" />
+        <entry key="..\:/2048 Merge Puzzle/app/src/main/res/layout/game.xml" value="0.25" />
+        <entry key="..\:/2048 Merge Puzzle/app/src/main/res/layout/gameover.xml" value="0.17074275362318841" />
+        <entry key="..\:/2048 Merge Puzzle/app/src/main/res/layout/home_screen.xml" value="0.17074275362318841" />
+        <entry key="..\:/2048 Merge Puzzle/app/src/main/res/layout/score_line.xml" value="0.17074275362318841" />
+        <entry key="..\:/2048 Merge Puzzle/app/src/main/res/layout/scoreboard.xml" value="0.17074275362318841" />
+        <entry key="..\:/2048 Merge Puzzle/app/src/main/res/layout/setting.xml" value="0.17074275362318841" />
+        <entry key="..\:/2048 Merge Puzzle/app/src/main/res/layout/splace_screen.xml" value="0.17074275362318841" />
+        <entry key="..\:/2048/app/src/main/res/drawable/shape_rectangle_white.xml" value="0.67" />
+        <entry key="..\:/2048/app/src/main/res/font/luckiest_guy.xml" value="0.23020833333333332" />
+        <entry key="..\:/2048/app/src/main/res/layout/about.xml" value="0.18329355608591885" />
+        <entry key="..\:/2048/app/src/main/res/layout/choose_board.xml" value="0.25" />
+        <entry key="..\:/2048/app/src/main/res/layout/game.xml" value="0.25" />
+        <entry key="..\:/2048/app/src/main/res/layout/gameover.xml" value="0.2" />
+        <entry key="..\:/2048/app/src/main/res/layout/googlesignin.xml" value="0.2" />
+        <entry key="..\:/2048/app/src/main/res/layout/home_screen.xml" value="0.25" />
+        <entry key="..\:/2048/app/src/main/res/layout/score_line.xml" value="0.2" />
+        <entry key="..\:/2048/app/src/main/res/layout/scoreboard.xml" value="0.2" />
+        <entry key="..\:/2048/app/src/main/res/layout/setting.xml" value="0.2" />
+        <entry key="..\:/2048/app/src/main/res/layout/splace_screen.xml" value="0.25" />
+        <entry key="..\:/2048/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21614583333333334" />
+        <entry key="..\:/2048/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21614583333333334" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/drawable-v24/block_shape.xml" value="0.21614583333333334" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/drawable-v24/cell_shape.xml" value="0.21614583333333334" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/drawable-v24/game_background.xml" value="0.21614583333333334" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/drawable/rectangle_brown.xml" value="0.20208333333333334" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/drawable/rectangle_red.xml" value="0.20208333333333334" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/drawable/shape_rectangle_white.xml" value="0.21614583333333334" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/font/baloo.xml" value="0.21614583333333334" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/font/luckiest_guy.xml" value="0.23020833333333332" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/font/mouse_memoirs.xml" value="0.23020833333333332" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/font/rubik_black_italic.xml" value="0.23020833333333332" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/layout/about.xml" value="0.2" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/layout/choose_board.xml" value="0.1" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/layout/game.xml" value="0.16296296296296298" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/layout/gameover.xml" value="0.16296296296296298" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/layout/googlesignin.xml" value="0.15517241379310345" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/layout/home_screen.xml" value="0.17" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/layout/score_line.xml" value="0.16296296296296298" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/layout/scoreboard.xml" value="0.16296296296296298" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/layout/setting.xml" value="0.16296296296296298" />
+        <entry key="..\:/Android Projects/18_10_21/game 2048 code/drawable name/app/src/main/res/layout/splace_screen.xml" value="0.175" />
+        <entry key="..\:/Github Code Upload/2048/app/src/main/res/layout/game.xml" value="0.1" />
+        <entry key="..\:/Github Code Upload/2048/app/src/main/res/layout/googlesignin.xml" value="0.2" />
+        <entry key="..\:/Github Code Upload/2048/app/src/main/res/layout/home_screen.xml" value="0.2" />
+        <entry key="..\:/Github Code Upload/2048/app/src/main/res/layout/splace_screen.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

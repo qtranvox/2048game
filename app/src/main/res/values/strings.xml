@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">2048</string>
+
+    <string name="version">v1.0</string>
+    <string name="author">sixconbao</string>
+
+    <!--google play service project id-->
+    <string name="GooglePlay_games_App_ID">523708674078</string>
+
+    <!--    admob-->
+    <string name="App_ID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="BannerAd">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="InterstitialAd">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!--    Play Store account link-->
+    <string name="moreGameURL">https://play.google.com/store/apps/dev?id=6402557770174223788</string>
+
+    <string name="game_over_title">Thất bại</string>
+    <string name="mode_classic">Classic</string>
+    <string name="mode_blocks">Blocks</string>
+    <string name="mode_shuffle">Shuffle</string>
+    <string name="mode_exp_classic">2048 cổ điển cơ bản</string>
+    <string name="mode_exp_blocks">Các khối gạch ngẫu nhiên sẽ xuất hiện trong bảng của bạn</string>
+    <string name="mode_exp_shuffle">"Bảng chơi của bạn đã bị xáo trộn!! "</string>
+    <string name="exponent_exp_2">Hãy cố gắng đạt \n2048!</string>
+    <string name="exponent_exp_3">Hãy cố gắng đạt \n177.147!</string>
+    <string name="exponent_exp_4">Hãy cố gắng đạt \n4.194.304!</string>
+    <string name="exponent_exp_5">Hãy cố gắng đạt \n48.828.125!</string>
+    <string name="start">Bắt đầu!</string>
+    <string name="end_tutorial">Kết thúc</string>
+    <string name="shuffle">Xáo trộn!</string>
+    <string name="Score_board">Bảng điểm</string>
+    <string name="choose_game_mode">Chọn chế độ</string>
+    <string name="choose_board_size">Kích thước bảng</string>
+    <string name="square">Hình vuông</string>
+    <string name="rectangle">Hình chữ nhật</string>
+    <string name="choose_exponent">Chọn cơ số</string>
+    <string name="on">Bật</string>
+    <string name="off">Tắt</string>
+    <string name="play">Chơi!</string>
+    <string name="next">Tiếp theo</string>
+    <string name="settings">Cài đặt</string>
+    <string name="music">Nhạc nền</string>
+    <string name="sound">Âm thanh</string>
+    <string name="close">Đóng</string>
+    <string name="your_score">Điểm của bạn</string>
+    <string name="play_again">Chơi lại</string>
+    <string name="how_to_play">Cách chơi</string>
+    <string name="best_score">Điểm cao nhất :</string>
+    <string name="winner">Chiến thắng!!!</string>
+    <string name="new_score">Điểm mới!!!</string>
+    <string name="about">Giới thiệu</string>
+    <string name="more_games">Game khác</string>
+    <string name="newGame">GAME MỚI</string>
+    <string name="howToPlay">CÁCH CHƠI</string>
+    <string name="setting">CÀI ĐẶT</string>
+
+    <string name="tutorial_first_line">Cách chơi:\nVuốt lên, xuống, trái, phải để di chuyển các ô trên bảng.</string>
+    <string name="tutorial_second_line">GOOD!! \nHai ô giống nhau sẽ kết hợp lại khi chúng va chạm. Hãy cố gắng kết hợp các ô để tạo ra ô có giá trị cao hơn.</string>
+    <string name="tutorial_third_line">Perfect!!\nTiếp tục kết hợp các ô để tạo ra điểm số cao hơn!</string>
+    <string name="textFirst">Hãy kết hợp các số và đạt đến ô có giá trị 2048! Trò chơi hỗ trợ các kích thước bảng nhỏ (3x3), (3x4), (3x5), truyền thống (4x4), (4x5), lớn (5x5), (5x6), và rất lớn (6x6). Hãy sẵn sàng cho một thử thách mới!</string>
+    <string name="textSecond">Super 2048 Plus puzzle là một trò chơi đòi hỏi bạn tiếp tục chơi để đạt điểm số cao sau khi thu thập được ô có giá trị 2048. Trò chơi sẽ tự động lưu lại và cho phép bạn tiếp tục chơi sau này. Giao diện của trò chơi được thiết kế đẹp, đơn giản và mang phong cách cổ điển. Hãy tiếp tục chơi để tìm hiểu thêm về trò chơi này và cố gắng đạt được điểm số cao nhất!.</string>
+    <string name="textThird">Trong trò chơi, các ô sẽ có hiệu ứng âm thanh khi bạn nhấp hoặc vuốt trên chúng. Bên cạnh đó, trò chơi cũng sẽ có âm nhạc nền để tạo không khí hứng khởi.</string>
+    <string name="textForth">Trò chơi sẽ có hệ thống điểm cao và bảng xếp hạng cho các kích thước bảng khác nhau.
+        Đây là một phiên bản hoàn toàn native của trò chơi, cho phép bạn chơi ở bất kỳ vị trí nào trên màn hình.
+        Trò chơi có cách chơi cổ điển với những chuyển động mượt mà.
+        Bạn có thể vuốt để di chuyển và sử dụng nút Undo để hoàn tác một lần vuốt trước đó.
+        Trò chơi cũng cung cấp thống kê chi tiết bao gồm điểm số cao nhất.
+        Đặc biệt, trò chơi hoàn toàn miễn phí và không yêu cầu mua hàng. Đây là phiên bản chính thức của trò chơi câu đố gốc.</string>
+    <string name="textFive">CÁCH CHƠI: Vuốt (lên, xuống, trái hoặc phải) để di chuyển các ô.
+Khi hai ô có cùng số chạm vào nhau, chúng sẽ kết hợp thành một ô mới. Khi tạo được ô có giá trị 2048, người chơi sẽ thắng! 8..16..128..1024..2048.
+       </string>
+    <string name="textSix"> 2048 là một trò chơi chơi trên một bảng vuông 4x4, bao gồm các ô số mà trượt khi người chơi di chuyển chúng bằng bốn phím mũi tên. Mỗi lượt chơi, một ô mới xuất hiện ngẫu nhiên trên một ô trống trên bảng với giá trị là 2 hoặc 4. Các ô trượt càng xa càng tốt theo hướng đã chọn cho đến khi chúng bị chặn bởi một ô khác hoặc cạnh của bảng. Nếu hai ô cùng số va chạm khi di chuyển, chúng sẽ kết hợp thành một ô duy nhất có tổng giá trị của hai ô đã va chạm. Ô kết quả không thể kết hợp với bất kỳ ô khác trong cùng một lượt di chuyển nữa. Các ô có điểm số cao sẽ tỏa sáng nhẹ. Ô cao nhất có thể đạt được là 131,072. Nếu một lượt di chuyển khiến ba ô có cùng giá trị di chuyển cùng một lúc, chỉ có hai ô xa nhất theo hướng di chuyển sẽ kết hợp. Nếu cả bốn ô trong một hàng hoặc cột đều được điền với các ô có cùng giá trị, một lượt di chuyển song song với hàng/cột đó sẽ kết hợp hai ô đầu tiên và hai ô cuối cùng. Bảng điểm ở góc trên bên phải theo dõi điểm số của người chơi. Điểm số ban đầu của người chơi là 0 và tăng theo giá trị của ô mới mỗi khi hai ô kết hợp. Trò chơi được thắng khi một ô có giá trị 2048 xuất hiện trên bảng. Người chơi có thể tiếp tục chơi để đạt được điểm số cao hơn. Khi người chơi không có nước đi hợp lệ (không còn ô trống và không có ô kề cạnh có cùng giá trị), trò chơi kết thúc.
+       </string>
+
+</resources>

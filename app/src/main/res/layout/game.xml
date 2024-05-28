@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_background_light"
+    android:backgroundTint="#EDE7E7"
+    android:backgroundTintMode="multiply"
+    tools:context="in.sixconbao.merge.game2048.GameActivity">
+
+    <ImageButton
+        android:id="@+id/btn_Score_board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="12dp"
+        android:background="@drawable/rectangle_pink"
+        android:padding="7dp"
+        android:src="@drawable/icon_trophy_white"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:id="@+id/menu_relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_top"
+                android:backgroundTint="#7557534F"
+                android:backgroundTintMode="multiply"
+                android:orientation="vertical"
+                android:paddingTop="3dp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/gameview_relative_layout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/menu_best_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true">
+
+                    <TextView
+                        android:id="@+id/best"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="3dp"
+                        android:text="@string/best_score"
+                        android:textColor="@color/valueEmpty"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/best_score_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginVertical="5dp"
+                        android:background="@drawable/shape_oval_orange"
+                        android:backgroundTint="#ABFDAE6F"
+                        android:backgroundTintMode="multiply"
+                        android:gravity="center_vertical"
+                        android:minEms="3"
+                        android:padding="5dp"
+                        android:textColor="@color/valueEmpty"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/current_score_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/menu_best_line"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:autoSizeTextType="uniform"
+                    android:maxLines="1"
+                    android:padding="3dp"
+                    android:text="@string/start"
+                    android:textAlignment="center"
+                    android:textColor="@color/valueEmpty"
+                    android:textSize="35sp"
+                    android:textStyle="italic"
+                    tools:ignore="UnusedAttribute" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/gameview_relative_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_above="@id/game_button_bar"
+                android:layout_below="@id/menu_relative"
+                ads:layout_constraintBottom_toTopOf="@+id/game_button_bar"
+                ads:layout_constraintEnd_toEndOf="parent"
+                ads:layout_constraintStart_toStartOf="parent"
+                ads:layout_constraintTop_toBottomOf="@+id/menu_relative">
+
+                <LinearLayout
+                    android:id="@+id/game_liner_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:background="@drawable/cell_shape"
+                    android:backgroundTint="#7557534F"
+                    android:backgroundTintMode="multiply"
+                    tools:ignore="UselessParent">
+
+                    <in.sixconbao.merge.game2048.GameCode.GameViewCell
+                        android:id="@+id/game_view_cell"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/game_button_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="60dp"
+                android:background="@drawable/menu_bottom_bar"
+                android:backgroundTint="#ABFDAE6F"
+                android:backgroundTintMode="multiply"
+                android:orientation="horizontal"
+                android:paddingHorizontal="30dp"
+                android:weightSum="4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gameview_relative_layout">
+
+                <ImageButton
+                    android:id="@+id/ib_home"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_white"
+                    android:src="@drawable/home_icon"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/ib_reset"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_white"
+                    android:src="@drawable/reset_icon"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/ib_undo"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_white"
+                    android:src="@drawable/undo_icon"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/btn_settings"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_white"
+                    android:src="@drawable/settings_icon"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/background_dark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E62B2B2B"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/announcing_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/shuffle"
+            android:textAlignment="center"
+            android:textColor="@color/value2"
+            android:textSize="30sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tutorial_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:paddingHorizontal="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/value2"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button_end_tutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/rectangle_sky_blue"
+            android:gravity="center"
+
+            android:paddingLeft="20dp"
+            android:paddingTop="7dp"
+            android:paddingRight="20dp"
+            android:text="@string/end_tutorial"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_view_game"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/BannerAd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
